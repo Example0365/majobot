@@ -1,6 +1,7 @@
 const { readdirSync } = require("fs");
 const ascii = require("ascii-table");
 const chalk = require("chalk");
+const emoji = require('discord-emoji-convert');
 const gradient = require("gradient-string");
 const table = new ascii();
 table.setHeading("Command", "Category", "Load status");
